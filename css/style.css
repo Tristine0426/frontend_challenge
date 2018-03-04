@@ -1,0 +1,159 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    font-family: Roboto, helvetica, sans-serif;
+    font-size: 16px;
+    color: #212121;
+}
+
+.container {
+    margin: 0 auto;
+    width: 420px;
+    background-image: url(../img/map.JPG);
+}
+
+/********************* Status *********************/
+#status-bar {
+    padding: 5px 10px 5px 235px;
+    width: 420px;
+    background-color: #FFC107;  
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 0.875em;
+}
+
+/********************* Location Header *********************/
+#title {
+    background-color: #FFD54F;
+    height: 35px;
+    box-shadow: 0 0 20px #888888;
+}
+
+.location-header h1 {
+    padding: 5px 100px;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+/********************* Navigation *********************/
+#navigation {
+    margin-top: 180px;
+    background: white;
+}
+
+.nav-bar h1 {
+    align-content: center;
+    padding: 14px 27px;
+}
+
+.selected {
+    border-bottom: 5px solid #FFA000;
+}
+
+/********************* Input section *********************/
+.left-icons, .right-icons {
+    width: 53px;
+}
+
+.left-icons {
+    padding: 20px; 
+}
+
+.right-icons {
+    padding: 17px;
+}
+.icon-content {
+    margin: 7px 0;
+}
+
+.fa-ellipsis-v {
+    margin: 5px;
+}
+
+.location-input{
+    width: 300px;
+    margin: 20px 0;
+}
+
+input {
+    width: 277px;
+    height: 42px;
+    margin: 5px 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.fa-heart, .fa-clock, .fa-circle, .leave-now   {
+    color: white;
+}
+
+.leave-now {
+    padding: 6px;
+    margin:  0px 10px;
+}
+
+#input, #bus-list {
+    background-color: #37474F;
+}
+
+.fa-ellipsis-v, .no2 {
+    color: #FFA000;
+}
+
+.no2, .fa-plus {
+    margin-bottom: 10px;
+}
+
+/********************* Bus list *********************/
+#bus-list, .interactive {
+    color: #FFCA28;
+}
+
+.location {
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    height: 92px;
+}
+
+.content {
+    width: 50%;
+    line-height: 22px;
+}
+
+.time, .content,.nav-bar h1, #status-bar, .location-header h1, .location-input, .left-icons, .right-icons, .leave-now, h6, .time, #mobile-nav {
+    display: inline-block;
+}
+
+.content h1 {
+    font-weight: 900;
+    font-size:  1.5em;
+}
+
+.content h3 {
+    line-height: 1.5;
+}
+
+.time {
+    font-size: 1.25em;
+    float: right;
+    margin-top: 27px;
+}
+
+/********************* Mobile Navigation *********************/
+#mobile-nav {
+    background: black;
+}
+
+.mobile-icons {
+    width: 420px;   
+}
+
+.fa-caret-left, .mobile-circle, .fa-square {
+    margin: 20px 56px;
+    color: white;
+}

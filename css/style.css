@@ -34,7 +34,7 @@ h6 {
     box-shadow: 0 0 20px #888888;
 }
 
-.location-header h1 {
+#title ul li h1 {
     padding: 5px 100px;
     font-weight: 700;
     font-size: 1.25em;
@@ -46,7 +46,7 @@ h6 {
     background: white;
 }
 
-.nav-bar h1 {
+#navigation ul li h1 {
     align-content: center;
     padding: 14px 27px;
 }
@@ -125,7 +125,7 @@ input {
     line-height: 22px;
 }
 
-.time, .content,.nav-bar h1, #status-bar, .location-header h1, .location-input, .left-icons, .right-icons, .leave-now, h6, .time, #mobile-nav {
+.time, .content,#navigation ul li h1, #status-bar, #title ul li h1, .location-input, .left-icons, .right-icons, .leave-now, h6, .time, #mobile-nav {
     display: inline-block;
 }
 
@@ -149,7 +149,7 @@ input {
     background: black;
 }
 
-.mobile-icons {
+#mobile-nav ul li {
     width: 420px;   
 }
 
